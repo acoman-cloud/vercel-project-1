@@ -42,3 +42,44 @@ code:before,
 code:after {
   content: '\`';
 }
+.numbers{
+  display:flex;
+  flex-wrap: wrap;
+  border:2px solid red;
+  justify-content: space-evenly;
+  margin:0;
+}
+.number{
+  border:1px solid gray;
+  width:25%;
+  margin:.5%;
+}
+.number:hover{
+  background-color: black;
+  color:white;
+}
+
+.operations{
+  display:flex;
+  justify-content: center;
+  border:2px solid red;
+}
+.operation{
+  border:1px solid gray;
+  width:30%;
+  margin:1%;
+}
+.operation:hover{
+  background-color: black;
+  color:white;
+}
+.serial{
+  display:flex;
+  justify-content: center;
+}
+.box{
+  width:100%;
+  font-size: 70px;
+  display:flex;
+  text-align: center;
+}
