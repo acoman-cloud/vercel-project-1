@@ -57,6 +57,7 @@ code:after {
 .number:hover{
   background-color: black;
   color:white;
+  cursor:pointer;
 }
 
 .operations{
@@ -72,6 +73,7 @@ code:after {
 .operation:hover{
   background-color: black;
   color:white;
+  cursor:pointer;
 }
 .serial{
   display:flex;
